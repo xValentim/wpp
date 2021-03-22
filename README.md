@@ -18,7 +18,7 @@ In this goal, subitem 4:
 Therefore, it is essential to exist technologies tools to improve way how we use water daily.
 
 
-![inf](inf1.png)
+![inf](images/inf1.png)
 ![inf](inf2.png)
 
 
