@@ -19,14 +19,14 @@ Therefore, it is essential to exist technologies tools to improve way how we use
 
 
 ![inf](images/inf1.png)
-![inf](inf2.png)
+![inf](images/inf2.png)
 
 
 
 
 
 ### Part 1: Hardware.
-- First, we need make a littlle circuit, as described below: ![circuit](circuit.png) ![circuit](circuit2.jpeg)
+- First, we need make a littlle circuit, as described below: ![circuit](images/circuit.png) ![circuit](images/circuit2.jpeg)
 
 - Second, we need to write a code to get and set information anytime, because we have two sensors, which must be queried, and one relay module, that must be set.
 
@@ -55,7 +55,7 @@ wherein "A0" is a pin that I use. Arduino has a registrador of 8 bits, which con
 #### Step 3:
 >The distance until object can be calculated by this simple equation that depends on the sound velocity: distance = sound_velocity * time / 2 .
 
-![graph](dist.png)
+![graph](images/dist.png)
 
 ### Part 3: Experimental error.
 - In this project, I believe that is difficult to meansure physical quantities like a temperature, distance and sound velocity in the air. Thereupon, I use my newfound (Thanks CS50) to improve the precision in each measure. Later I'll show you some tricks that improve any measurements.
@@ -64,20 +64,20 @@ wherein "A0" is a pin that I use. Arduino has a registrador of 8 bits, which con
 - We will analise the temperature, but this can be make for any sample data. First, I use a pointer:
  >BYTE *mid = malloc(nt * sizeof(float));
 
-Now, I'll sum every floats in chunks to get an average. The result, wherein I compare two graphics:without and with avarege.![graph](gt2new.png)
+Now, I'll sum every floats in chunks to get an average. The result, wherein I compare two graphics:without and with avarege.![graph](images/gt2new.png)
 
 
 #### Sound velocity:
 - Now, I can calculate sound velocity in the air using the expression below:
 
-![graph](eq.png)
+![graph](images/eq.png)
 
 Remember, the air is composed by 80% of N2 and 20% of O2. Also, M = 28.8 g/mol and gama = 7/5. Thus, we have: v = sqrt(T) * 20.086 (T in Kelvin).
 
 #### Part 4: Graphics and data.
 - I used the Arduino to make a file tab separate values in the computer and, finally, I plotted this data. See the results!
 
-![graph](ggeralnew.png)
-![graph](g1new.png)
+![graph](images/ggeralnew.png)
+![graph](images/g1new.png)
 
 
